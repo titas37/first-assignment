@@ -9,6 +9,9 @@
   font-style: normal;
   color: #4E47FF;
 }
+.bg-color{
+    background-color: rgba(245, 248, 255, 1);
+}
 
 .header{
     background-image: url(../Assets/Hero-bg.png);
@@ -18,19 +21,24 @@
     height: 100%;
     width: 100%;
     align-items: center;
-    justify-content: center;
+    justify-items: center;
+
 
 }
 nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 50px 150px;
+    gap: 909px;
+    margin: 28px 150px 150px 0px;
+    padding: 50px 0px 0px 50px;
+    margin-left: 150px;
 }
 
 .nav-title{
     font-weight: 900;
     font-size: 34px;
+    
 }
 .btn-primary{
     background-color: #4E47FF;
@@ -46,8 +54,10 @@ nav{
     gap: 37px;
     text-align: center;
     max-width: 905px;
-    margin: 309px 267px 267px 227px;
-    justify-content: center;
+    justify-items: center;
+    padding-bottom: 150px;
+    margin-left: 267px;
+    margin-right: 267px;
 
 }
 .banner-content{
@@ -60,7 +70,8 @@ nav{
 .action{
     display: flex;
     justify-content: space-between;
-    margin: 88px 141px 159px 0px;
+    margin: 0px  141px 159px 0px;
+    padding: 88px 0px 0px 0px;
     gap: 220px;
 }
 .action-header{
@@ -84,10 +95,14 @@ nav{
     border-radius: 24px;
     background-color: rgba(78, 71, 255, 0.1);
     padding: 50px 80px 80px 50px;
-    margin: 116px 127px 283px 120px;
+    margin: 116px 127px 283px 137px;
 }
 .rate-header{
     color: #252432;
+}
+.rate{
+    gap: 0px;
+    display: inline-block;
 }
 .rate-items{
     display: flex;
@@ -101,4 +116,43 @@ nav{
     color: rgba(0, 0, 0, 0.5);
     font-size: 20px;
     font-weight: 400;
+}
+.form{
+    padding: 92px 150px;
+    display: flex;
+    gap: 115px;
+}
+.form-column{
+    width: 50%;
+}
+.form-title{
+    color: rgba(0, 0, 0, 1);
+    font-weight: bold;
+    font-size: 97px;
+    align-items: center;
+    padding-top: 200px;
+    padding-bottom: 200px;
+}
+.inter-text{
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  color: rgba(0, 0, 0, 1);
+  font-size: 18px;
+  font-weight: 500;
+}
+input[type="email"], input[type="text"], textarea{
+    height: 70px;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 1);
+    display: block;
+    width: 100%;
+    padding: 20px 32px;
+    margin-bottom: 19px;
+    border: rgba(214, 221, 237, 1);
+}    
+input[type="submit"]{
+    height: 62px;
+    width: 100%;
+    text-align: center;
 }
